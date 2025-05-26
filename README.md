@@ -1,14 +1,27 @@
 # React + Vite
-$ npm create vite@latest your-name -- --template react
-# Tailwind CSS
-$ npm install tailwindcss @tailwindcss/vite
-- import tailwindcss from '@tailwindcss/vite' 
+```sh
+npm create vite@latest your-name -- --template react
+```
+## Tailwind CSS
+```sh
+npm install tailwindcss @tailwindcss/vite
+```
+```sh
+import tailwindcss from '@tailwindcss/vite'
+```
+```sh
 - tailwindcss()
-- @import "tailwindcss";
-# Daisy UI
-$ npm i -D daisyui@latest 
-- @plugin "daisyui";
-# React Router
+```sh
+@import "tailwindcss";
+```
+## Daisy UI
+```sh
+npm i -D daisyui@latest
+```sh
+```sh
+@plugin "daisyui";
+```
+## React Router
 
 ```sh
 npm i react-router
@@ -30,24 +43,40 @@ const router = createBrowserRouter([
 ]);
 ```
 
->const root = document.getElementById("root");
+> const root = document.getElementById("root");
 
+```sh
 ReactDOM.createRoot(root).render(
-    ```sh
+
   <RouterProvider router={router} />
-  ```
+  
 );
+```
 
 
-# React Icons
-$ npm i react-icons
+## React Icons
+```sh
+npm i react-icons
+```
 
-# Sweet Alert
-$ npm install sweetalert2
-- import Swal from 'sweetalert2'
-# React Toastify
-$ npm i react-toastify
-- import { ToastContainer, toast } from 'react-toastify';
-# React Hot Toast
-$ npm install react-hot-toast
-- import toast, { Toaster } from 'react-hot-toast';
+## Sweet Alert
+```sh
+npm install sweetalert2
+```
+```sh
+import Swal from 'sweetalert2'
+```
+## React Toastify
+```sh
+npm i react-toastify
+```
+```sh
+import { ToastContainer, toast } from 'react-toastify';
+```
+## React Hot Toast
+```sh
+npm install react-hot-toast
+```
+```sh
+import toast, { Toaster } from 'react-hot-toast';
+```
