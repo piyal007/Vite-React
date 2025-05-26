@@ -6,7 +6,8 @@ $ npm install tailwindcss @tailwindcss/vite
 - tailwindcss()
 - @import "tailwindcss";
 # Daisy UI
-$ npm i -D daisyui@latest - @plugin "daisyui";
+$ npm i -D daisyui@latest 
+- @plugin "daisyui";
 # React Router
 $ npm i react-router
 - npm i react-router
