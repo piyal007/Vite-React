@@ -9,7 +9,10 @@ $ npm install tailwindcss @tailwindcss/vite
 $ npm i -D daisyui@latest 
 - @plugin "daisyui";
 # React Router
-$ npm i react-router
+
+```bash
+npm i react-router
+
 - import { createBrowserRouter, RouterProvider, } from "react-router";
 
 > import React from "react";
