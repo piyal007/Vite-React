@@ -13,7 +13,7 @@ $ npm i -D daisyui@latest
 ```bash
 npm i react-router
 
-```bash
+```
 
 - import { createBrowserRouter, RouterProvider, } from "react-router";
 
