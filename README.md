@@ -10,18 +10,24 @@ $ npm i -D daisyui@latest
 - @plugin "daisyui";
 # React Router
 $ npm i react-router
-- import {
-  createBrowserRouter,
-  RouterProvider,
-  } from "react-router";
-- const router = createBrowserRouter([
+- import { createBrowserRouter, RouterProvider, } from "react-router";
+
+> import React from "react";
+> import ReactDOM from "react-dom/client";
+
+const router = createBrowserRouter([
   {
     path: "/",
     element: <div>Hello World</div>,
   },
 ]);
 
-- <RouterProvider router={router} />
+>const root = document.getElementById("root");
+
+ReactDOM.createRoot(root).render(
+  <RouterProvider router={router} />
+);
+
 
 # React Icons
 $ npm i react-icons
