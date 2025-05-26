@@ -2,8 +2,8 @@
 $ npm create vite@latest your-name -- --template react
 # Tailwind CSS
 $ npm install tailwindcss @tailwindcss/vite
-- tailwindcss()
 - import tailwindcss from '@tailwindcss/vite' 
+- tailwindcss()
 - @import "tailwindcss";
 # Daisy UI
 $ npm i -D daisyui@latest - @plugin "daisyui";
