@@ -80,3 +80,18 @@ npm install react-hot-toast
 ```sh
 import toast, { Toaster } from 'react-hot-toast';
 ```
+
+## Basic Structure For React
+```bash
+import React from 'react';
+
+const Navbar = () => {
+  return (
+    <>
+      
+    </>
+  );
+};
+
+export default Navbar;
+```
