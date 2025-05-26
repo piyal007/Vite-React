@@ -10,7 +10,7 @@ $ npm i -D daisyui@latest
 - @plugin "daisyui";
 # React Router
 
-```bash
+```sh
 npm i react-router
 
 ```
