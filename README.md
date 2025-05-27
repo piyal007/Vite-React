@@ -10,19 +10,19 @@ npm install tailwindcss @tailwindcss/vite
 import tailwindcss from '@tailwindcss/vite'
 ```
 ```sh
-- tailwindcss()
+tailwindcss()
 ```
 ```sh
 @import "tailwindcss";
 ```
 ```
 ## Daisy UI
+
 ```sh
 npm i -D daisyui@latest
 ```
 ```sh
 @plugin "daisyui";
-```
 ```
 ## React Router
 
@@ -84,7 +84,7 @@ npm install react-hot-toast
 import toast, { Toaster } from 'react-hot-toast';
 ```
 
-## Basic Structure For React
+## RSC
 ```bash
 import React from 'react';
 
