@@ -15,7 +15,6 @@ tailwindcss()
 ```sh
 @import "tailwindcss";
 ```
-```
 ## Daisy UI
 
 ```sh
