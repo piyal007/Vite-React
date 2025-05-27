@@ -11,15 +11,18 @@ import tailwindcss from '@tailwindcss/vite'
 ```
 ```sh
 - tailwindcss()
+```
 ```sh
 @import "tailwindcss";
+```
 ```
 ## Daisy UI
 ```sh
 npm i -D daisyui@latest
-```sh
+```
 ```sh
 @plugin "daisyui";
+```
 ```
 ## React Router
 
